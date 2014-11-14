@@ -89,7 +89,7 @@ func keygen() {
 	if mode == 1 {
 		last = c3
 	}
-	for i := 1; i <= len; i++ {
+	for i := 1; i < len; i++ {
 		fmt.Printf("%c", getChar(random(c0, last)))
 	}
 	fmt.Println()
